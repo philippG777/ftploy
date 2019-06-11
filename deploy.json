@@ -1,0 +1,16 @@
+{
+    "source": "src",
+    "dest":   "path/to/mounted/ftp/server",
+    "include_file_ext": [
+        "php", "xhtml", "html", "js"
+    ],
+    "include": [
+        "robots.txt",
+        "easter/egg.txt"
+    ],
+    "exclude": [
+        "init_sql.php",
+        "login/test.php"
+    ],
+    "build": "build-command"
+}
